@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv);
 
-  const response = await fetch("https://api.devmirza.ml", {
+  const response = await fetch("https://codex-api.cyclonebotlist.ml", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
